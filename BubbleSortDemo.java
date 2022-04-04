@@ -1,8 +1,8 @@
-package DataStructurePractice;
+package SortingAlgorithm;
 
 public class BubbleSortDemo {
 
-	public static void main(String[] args) {
+	public static void main(String [] args) {
 		// TODO Auto-generated method stub
 
 		int a[] = {7,8,4,1,2,3};
@@ -14,10 +14,10 @@ public class BubbleSortDemo {
 			 System.out.print(b[k] + " ");
 		 }
 		 
-	}
+}
 
 	
-	public static int[] bubbleSort(int[] a) {
+	private static int[] bubbleSort(int[] a) {
 		
 		int n = a.length-1;
 		int temp = 0;
@@ -37,9 +37,6 @@ public class BubbleSortDemo {
 					a[j+1] = temp;
 				}
 				
-				System.out.println(temp);
-				System.out.println(a[j]);
-				System.out.println(a[j+1]);
 			}
 			
 		}
@@ -48,4 +45,4 @@ public class BubbleSortDemo {
 
 	}
 
-	}
+}
